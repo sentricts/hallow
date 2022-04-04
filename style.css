@@ -15,6 +15,14 @@ body, html {
   text-align: center;
 }
 
+h3, a {
+	color: red;
+}
+
+p {
+	font-size: 30px;
+}
+
 div.container {
 	font-family: Raleway;
   	margin: 0 auto;
@@ -22,7 +30,9 @@ div.container {
   	text-align: center;
 }
 
-div.container a {
+div.container button {
+	background-color: transparent;
+	border: none;
 	color: #FFF;
 	text-decoration: none;
 	font: 20px Raleway;
@@ -33,7 +43,7 @@ div.container a {
 	cursor: pointer;
 }
 
-div.topBotomBordersIn a:before, div.topBotomBordersIn a:after {
+div.topBotomBordersIn button:before, div.topBotomBordersIn button:after {
 	position: absolute;
 	left: 0px;
 	width: 100%;
@@ -44,22 +54,22 @@ div.topBotomBordersIn a:before, div.topBotomBordersIn a:after {
 	transition: all 0.3s;
 }
 
-div.topBotomBordersIn a:before {
+div.topBotomBordersIn button:before {
 	top: 0px;
 	transform: translateY(-10px);
 }
 
-div.topBotomBordersIn a:after {
+div.topBotomBordersIn button:after {
 	bottom: 0px;
 	transform: translateY(10px);
 }
 
-div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after {
+div.topBotomBordersIn button:hover:before, div.topBotomBordersIn button:hover:after {
 	opacity: 1;
 	transform: translateY(0px);
 }
 
-.tabs {
+.tabcontent {
 	padding: 15px 15px;
 	outline: 1px solid white;
 	outline-offset: 5px;
@@ -68,24 +78,5 @@ div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after {
 	height: 55%;
 	text-align: center;
 	position: relative;
-}
-
-.home {
-	display: block;
-}
-
-.resources {
-	display: none;
-}
-
-.archive {
-	display: none;
-}
-
-.malware {
-	display: none;
-}
-
-.code {
 	display: none;
 }

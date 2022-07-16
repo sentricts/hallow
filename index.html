@@ -3,79 +3,67 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="CMOS#0001">
+	<meta name="author" content="Kevin Mitnick">
 	<meta name="robot" content="index, follow">
 	<meta http-equiv="refresh" content="">
-	<link rel="stylesheet" href="style.css">
-	<meta name=description content="What is Peace without Chaos? Chaos Archives made by CMOS#0001">
-	<link rel="icon" type="image/x-icon" href="star.ico">
-	<title>Chaos Archives</title>
+	<link rel="stylesheet" href="main.css">
+	<meta name=description content="Opsec simplified. Want to become a true internet ghost? Look no further, learn all about opsec and keeping your self anon on the world wide web.">
+	<title>Official Opsec Repos</title>
 </head>
 <body>
 	<div class="header">
 		<pre>
 
 
-   █████████  █████                                      █████████                      █████       ███                              
-  ███░░░░░███░░███                                      ███░░░░░███                    ░░███       ░░░                               
- ███     ░░░  ░███████    ██████    ██████   █████     ░███    ░███  ████████   ██████  ░███████   ████  █████ █████  ██████   █████ 
-░███          ░███░░███  ░░░░░███  ███░░███ ███░░      ░███████████ ░░███░░███ ███░░███ ░███░░███ ░░███ ░░███ ░░███  ███░░███ ███░░  
-░███          ░███ ░███   ███████ ░███ ░███░░█████     ░███░░░░░███  ░███ ░░░ ░███ ░░░  ░███ ░███  ░███  ░███  ░███ ░███████ ░░█████ 
-░░███     ███ ░███ ░███  ███░░███ ░███ ░███ ░░░░███    ░███    ░███  ░███     ░███  ███ ░███ ░███  ░███  ░░███ ███  ░███░░░   ░░░░███
- ░░█████████  ████ █████░░████████░░██████  ██████     █████   █████ █████    ░░██████  ████ █████ █████  ░░█████   ░░██████  ██████ 
-  ░░░░░░░░░  ░░░░ ░░░░░  ░░░░░░░░  ░░░░░░  ░░░░░░     ░░░░░   ░░░░░ ░░░░░      ░░░░░░  ░░░░ ░░░░░ ░░░░░    ░░░░░     ░░░░░░  ░░░░░░  
-
-<h3>Owned by <a href="https://discord.gg/skids">CMOS#0001</a></h3>
-</pre>
-</div>
-
-	<div class="container topBotomBordersIn">
-		<button onclick="window.location.href = 'https://hallow.dev';">Home</button>
-		<button class="tablinks" onclick="opentab(event, 'Resources')">Resources</button>
-		<button class="tablinks" onclick="opentab(event, 'Archive')">Archive</button>
-		<button class="tablinks" onclick="opentab(event, 'Malware')">Malware</button>
-		<button class="tablinks" onclick="opentab(event, 'Code')">Code</button>
-	</div><br>
-
-	<div id="Home" style="display: block;" class="tabcontent active">
-		<h1>Chaos Archives</h1>
-		<br>
-		<center><hr style="height: 1; width: 500px; color: white;"></center>
-		<br>
-		<p>The Chaos Archives store some old, and some new code. There are learning resources for certain computer related subjects, malware for reverse engineering, and open source code that most likely was quit on during production or made for fun. Eventually it may become a platform for anyone to post similar resources.</p>
+ ██████╗ ██████╗ ███████╗███████╗ ██████╗    ██████╗ ███████╗██████╗  ██████╗ ███████╗██╗████████╗ ██████╗ ██████╗ ██╗   ██╗
+██╔═══██╗██╔══██╗██╔════╝██╔════╝██╔════╝    ██╔══██╗██╔════╝██╔══██╗██╔═══██╗██╔════╝██║╚══██╔══╝██╔═══██╗██╔══██╗╚██╗ ██╔╝
+██║   ██║██████╔╝███████╗█████╗  ██║         ██████╔╝█████╗  ██████╔╝██║   ██║███████╗██║   ██║   ██║   ██║██████╔╝ ╚████╔╝ 
+██║   ██║██╔═══╝ ╚════██║██╔══╝  ██║         ██╔══██╗██╔══╝  ██╔═══╝ ██║   ██║╚════██║██║   ██║   ██║   ██║██╔══██╗  ╚██╔╝  
+╚██████╔╝██║     ███████║███████╗╚██████╗    ██║  ██║███████╗██║     ╚██████╔╝███████║██║   ██║   ╚██████╔╝██║  ██║   ██║   
+ ╚═════╝ ╚═╝     ╚══════╝╚══════╝ ╚═════╝    ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
+                                                                                                                            
+		<h3>Created by <a href="https://discord.gg/phc">Kevin Mitnick</a></h3>
+		</pre>
 	</div>
-
-	<div id="Resources" class="tabcontent">
-		<h1>Resources</h1>
-		<br>
-		<center><hr style="height: 1; width: 500px; color: white;"></center>
-		<br>
-		<p>Learning Resources/Tools</p>
+	<div class="leftpart">
+		<div class="card">
+			<h1>What is Opsec?</h1>
+			<p>"Opsec" or Operation Security is what hackers use to regulate their anonymity on the internet. Your opsec corresponds to how well you protect yourself online. How do you do that? There are many ways to improve your opsec. Pick a section and read more about it.</p>
+		</div>
+		<div class="card">
+			<h1>How to Get Encrypted</h1>
+			<p>First lets understand what encryption is. To encrypt something is to make something only readable by computeroids (robots). Now that we know what encryption is lets talk about how you can use it to prevent federal oppositions from tracking your every move.
+			</p>
+			<br>
+			<p>1. Start by downloading a vpn. Nord is good because its cheap and there are so many server so there is no way someone could track you.
+			</p>
+			<br>
+			<p>2. Now lets make sure your voice is secured. People can identify you by your voice, so its important to have a good voice changer like clownfish to mask your true identiy on the web. (FUNFACT: Hackers use voice changers to up their opsec and their scaryness)
+			</p>
+			<br>
+			<p>3. Make sure to wear latex gloves. This point cannot be stressed enough but when you type on your keybored you actually leave something called a digital fingerprint. Now it sounds exactly like what it means, anytime you type something on the internet the federal oppratives can track your location because of your keybored. Wearing latex rubber gloves prevents the electrical currents from acting like microwaves and bouncing off your fingers to give a gps location.
+			</p>
+			<br>
+			<p>4. File shredding, all the pro hackers do this daily, but doing it a few times a week should be enough. Basically the way your hard drive works, is it has something similar to a hamster wheel that spins around when you type things on your keybored. When you run an application on your computer it gets put in RAM (Random Access Memory) which is a temporary storage point for your data. Once you are finished using the application or decide to make some sort of large edit that requires a save, your hard drive now comes into the mix. The data is sent to your hard drive where it gets stored in little office cubicals where a robot is in charge of remembering its memory address (we will get to this later), once you decide to delete something from your hard drive it doesn't actually delete. Instead it simply tells the cpu that it can overwrite that memory point when it needs to. What this means is your data is still there it just gets written over with a pencil. The next time you decide to save something and your hard drive runs out of open cubicals it will then save it on top of the "overwrite allowed" cubical. If that was confusing don't worry, file shredding basically allows you to scrible all over that cubical with a bigger pencil so that way nobody can see what was written there in the first place.
+			</p>
+			<br>
+			<p>5. Virtualization, as soon as you make something virtual it instantly becomes more secure. The reason being is because virtual means to simulate, so its basically like making a fake place to do your hacking. In order to virtualize your computer you first need to enable your hypervisors in your BIOS. This part is easy simply reboot your computer and go into your BIOS. Scroll thru the tabs until you see boot order, click f5 or whatever button it says [disable]. By disabling all of the options in your boot order you will then enable your hyper visors and be ready to take the next step.
+			</p>
+			<br>
+			<p>6. If your computer broke after the last step you might be fucked and the feds might already be outside your door. I advise taking a drill to your hard drive and getting rid of the evidence. An alternitive to virtualization is using a physical lock on your device. I like using master lock as they are really hard to pick and come with mulitple keys.
+			</p>
+			<br>
+			<p>7. Last step download tor browser. Make sure you download tor on your desktop. Once on the deep dark web head on over to the hidden wiki, and try buying some credit cards.
+			</p>
+		</div>
+		<div class="card">
+			<h1>Understanding the Dark Web.</h1>
+			<p>What is the dark web? The dark web is like the light web but segragated from the normal internet. This is why you cannot access Dark Web links on a normal browser. In the previous example we downloaded tor onto our desktop. Tor uses onions to secure your smell on the internet. Since onions smell like shit they do a good job at hiding your information. But just because you are on tor doesn't mean you cannot get hacked. Always make sure to fullscreen your tor browser to increase your security in that current moment. Think about it like surface area to opsec level. The more space your application takes up, the more secure it is.
+			</p>
+			<br>
+			<p>On the Dark Web you will find honey pots. Honey Pots are basically websites that will pay you for ddosing them, or trying to hack them. Any time you successfuly ddos a honey pot, you will be instantly rewarded.
+			</p>
+		</div>
 	</div>
-	<div id="Archive" class="tabcontent">
-		<h1>Authentication</h1>
-		<br>
-		<center><hr style="height: 1; width: 500px; color: white;"></center>
-		<br><br><br><br><br><br><br><br>
-		<form>
-			<center><input type="password" class="archives" placeholder="Password"><button class="archbutton">></button></center>
-		</form>
-	</div>
-	<div id="Malware" class="tabcontent">
-		<h1>Malware</h1>
-		<br>
-		<center><hr style="height: 1; width: 500px; color: white;"></center>
-		<br>
-		<p>Open source Malware</p>
-	</div>
-	<div id="Code" class="tabcontent">
-		<h1>Code</h1>
-		<br>
-		<center><hr style="height: 1; width: 500px; color: white;"></center>
-		<br>
-		<p>Random Open source Tools</p>
-	</div>
-	<script type="text/javascript" src="scripts.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   </body>
-</html>
+</html> 
